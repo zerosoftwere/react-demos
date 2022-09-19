@@ -1,0 +1,27 @@
+.new-expense {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  background-color: rgb(183, 115, 214);
+}
+
+.new-expense__add-expense {
+  text-align: center;
+}
+
+.btn:not(:last-child) {
+  margin-right: 10px;
+}
+
+.btn {
+  background-color: rgb(62, 6, 88);
+  color: white;
+  padding: 10px;
+  outline: none;
+  border: 1px solid rgb(62, 6, 88);
+  border-radius: 8px;
+}
+
+.form-action {
+  text-align: right;
+}

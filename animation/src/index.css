@@ -1,0 +1,23 @@
+:root {
+  --primary: #521751;
+  --secondary: #fa923f;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.button {
+  border: 1px solid var(--primary);
+  background-color: var(--primary);
+  font: inherit;
+  padding: 8px;
+  color: white;
+  cursor: pointer;
+}
+
+.button:hover, .button:active {
+  background-color: var(--secondary);
+}

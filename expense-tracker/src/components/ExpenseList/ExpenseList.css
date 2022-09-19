@@ -1,0 +1,10 @@
+.expense-list {
+  background-color: rgb(80, 80, 80);
+  padding: 10px;
+  color: white;
+}
+
+.expense-list__fallback {
+  text-align: center;
+  font-weight: bold;
+}

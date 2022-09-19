@@ -1,0 +1,20 @@
+.App {
+  margin: auto;
+  max-width: 1024px;
+}
+
+.form-control {
+  display: block;
+}
+
+.input-group {
+  display: block;
+}
+
+.input-group > .form-control {
+  display: inline;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}

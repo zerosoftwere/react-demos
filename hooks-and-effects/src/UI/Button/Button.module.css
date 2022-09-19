@@ -1,0 +1,19 @@
+.button {
+  padding: 4px 8px;
+  font-weight: bold;
+  border: 1px solid #333;
+  border-radius: 4px;
+}
+
+.button:active {
+  transform: translate(1px, 1px);
+}
+
+.primary {
+  background-color: rgb(89, 89, 241);
+  color: white;
+}
+
+.default {
+  background-color: rgb(160, 253, 210);
+}

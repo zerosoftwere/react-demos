@@ -1,0 +1,22 @@
+.chart-bar__label {
+  color: black;
+  font-size: 8pt;
+}
+
+.chart-bar__inner {
+  height: 8rem;
+  width: 70%;
+  border-radius: 8px;
+  background-color: rgb(191, 156, 223);
+  margin: auto;
+  border: 1px solid #333;
+  position: relative;
+  overflow: hidden;
+}
+
+.chart-bar__fill {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(58, 16, 112);
+}

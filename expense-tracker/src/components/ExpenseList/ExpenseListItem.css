@@ -1,0 +1,30 @@
+.expense {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: gray;
+  align-items: center;
+  gap: 12px;
+}
+
+.expense:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.expense__date {
+  color: black;
+}
+
+.expense__title {
+  flex-grow: 1;
+  color: white;
+  font-weight: 600;
+  overflow: hidden;
+}
+
+.expense__amount {
+  padding: 10px 20px;
+  border: 2px solid white;
+  background-color: blueviolet;
+  color: white;
+}

@@ -1,0 +1,20 @@
+.container {
+  max-width: 720px;
+  margin: auto;
+}
+
+.formControl {
+  padding: 4px;
+  box-sizing: border-box;
+  border: 1px solid #888;
+  border-radius: 4px;
+}
+
+.formControl:focus {
+  outline: none;
+  border-color: rgb(136, 135, 207);
+}
+
+.invalid {
+  color: rgb(238, 67, 67);
+}

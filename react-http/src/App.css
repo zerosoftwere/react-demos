@@ -1,0 +1,58 @@
+body {
+  max-width: 1024px;
+  margin: auto;
+  background-color: #aaa;
+}
+
+.fetch {
+  text-align: center;
+  padding: 2rem;
+  background-color: #fff;
+  margin: 1rem 0;
+  border-radius: 12px;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, .3);
+}
+
+.fetch button {
+  font-size: 16pt;
+  font-weight: 600;
+  padding: 1rem;
+  background-color: rgb(31, 29, 141);
+  color: #fff;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+.loading {
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, .3);
+}
+
+.movie-list {
+  margin: 0;
+  padding: 0;
+}
+
+.movie-item {
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 12px;
+  text-align: center;
+  list-style: none;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, .3);
+  margin-bottom: 1rem;
+}
+
+.alert-error {
+  padding: 1rem;
+  color: #fff;
+  border-radius: 12px;
+  font-size: 16pt;
+  font-weight: 600;
+  text-align: center;
+  background-color: rgb(250, 50, 50);
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, .3);
+}
